@@ -1,0 +1,40 @@
+.container {
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 1rem 0;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
