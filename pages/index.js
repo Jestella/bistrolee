@@ -14,8 +14,8 @@ export default function Home() {
       <main className={styles.main}>
         <Image
           src='/images/main.jpg'
-          width={900}
-          height={600}
+          width={800}
+          height={560}
           alt='main image'
         />
         <p>

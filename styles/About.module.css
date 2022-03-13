@@ -1,4 +1,8 @@
 .about_container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 2rem;
+
   text-align: left;
   padding: 50px 100px;
 }

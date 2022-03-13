@@ -1,0 +1,30 @@
+.transparent {
+  background: transparent;
+  border-bottom: 0;
+  box-shadow: none;
+}
+
+.dark {
+  background-color: #1c4122;
+  color: #fff;
+}
+
+.light {
+  background-color: #a0cca8;
+  color: #1c4122;
+}
+
+.large {
+  padding: 0.6rem 2rem;
+}
+
+.normal {
+  padding: 0.6rem 0.85rem;
+  font-size: 1rem;
+}
+
+.small {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+  margin: 0;
+}
