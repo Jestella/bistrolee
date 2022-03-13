@@ -67,7 +67,7 @@ function Form() {
           <input type='email' name='email' id='youremail' required />
         </p>
         <p>
-          <label htmlFor='message'>Any requests?</label> <br />
+          <label htmlFor='message'>Special requests?</label> <br />
           <textarea name='message' id='message'></textarea>
         </p>
 
