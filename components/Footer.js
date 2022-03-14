@@ -27,7 +27,7 @@ const Footer = () => {
           <h5>CONTACT US</h5>
           <li>416-222-2222</li>
           <li>416-333-3333</li>
-          <li>contact@bistrolee.com</li>
+          <li>lee@bistrolee.com</li>
         </ul>
       </footer>
     </>

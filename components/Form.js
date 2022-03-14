@@ -1,4 +1,7 @@
 import Button from '../ui/Button/Button';
+import PickDate from './DatePicker';
+
+import formStyles from '../styles/Form.module.scss';
 
 function Form() {
   const bookTable = async (event) => {
@@ -24,30 +27,17 @@ function Form() {
 
   return (
     <>
-      <form onSubmit={bookTable}>
+      <form onSubmit={bookTable} iv className={formStyles.form}>
+        <p>
+          <label htmlFor='date'>
+            Date / Time
+            <br />
+          </label>
+          <PickDate />
+        </p>
         <p>
           <label htmlFor='partysize'>Party size</label> <br />
           <input type='number' name='number' id='partysize' required />
-        </p>
-        <p>
-          <label htmlFor='date'>
-            Date <br />
-          </label>
-          <input
-            id='date'
-            type='date'
-            autoComplete='date'
-            minlength='10'
-            maxlength='20'
-            required
-          />
-        </p>
-
-        <p>
-          <label htmlFor='time'>
-            Time <br />
-          </label>
-          <input id='time' type='time' autoComplete='time' required />
         </p>
         <p>
           <label htmlFor='name'>
@@ -71,13 +61,13 @@ function Form() {
           <textarea name='message' id='message'></textarea>
         </p>
 
-        <p>
+        {/* <p>
           <label class='switch'>
             <input type='checkbox' name='switch' id='switch' value='switch' />
             <span class='switch-label' data-on='YES' data-off='NO'></span>
             <span>Birthday or aniversary?</span>
           </label>
-        </p>
+        </p> */}
       </form>
 
       <Button variant='dark' size='large' type='submit'>
