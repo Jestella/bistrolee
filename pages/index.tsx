@@ -1,16 +1,9 @@
-import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Layout.module.scss';
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Bistro Lee | Sushi & Bar</title>
-        <meta name='description' content='Japanese Restaurant in Toronto' />
-        <link rel='icon' href='/logo.ico' />
-      </Head>
-
       <main className={styles.main}>
         <Image
           src='/images/main.jpg'
