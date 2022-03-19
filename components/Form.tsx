@@ -27,7 +27,7 @@ function Form() {
 
   return (
     <>
-      <form onSubmit={bookTable} iv className={formStyles.form}>
+      <form onSubmit={bookTable} className={formStyles.form}>
         <p>
           <label htmlFor='date'>
             Date / Time
@@ -43,14 +43,7 @@ function Form() {
           <label htmlFor='name'>
             Name <br />
           </label>
-          <input
-            id='name'
-            type='text'
-            autoComplete='name'
-            required
-            minlength='10'
-            maxlength='20'
-          />
+          <input id='name' type='text' autoComplete='name' required />
         </p>
         <p>
           <label htmlFor='youremail'>Email</label> <br />

@@ -3,7 +3,7 @@ import { Card } from '../components/Card';
 import { Data } from './api/data';
 import { Buttons } from './api/data';
 import { getMenu, filterMenu } from './api/hello';
-import menuStyles from '../styles/Menus.module.css';
+import menuStyles from '../styles/Menus.module.scss';
 
 export default function Menus() {
   const [filteredMenu, setFilteredMenu] = useState(null);
