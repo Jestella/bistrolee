@@ -27,7 +27,7 @@ export default function Menus() {
             <button
               key={index}
               value={item.value}
-              onClick={handleMenu}
+              onMouseEnter={handleMenu}
               className={menuStyles.menu_button}
             >
               {item.name}
