@@ -37,9 +37,9 @@ export default function Menus() {
 
       {filteredMenu &&
         filteredMenu.map((item) => (
-          <Card>
+          <Card key={item.id}>
             <div className={menuStyles.card_container}>
-              <div key={item.id} className={menuStyles.card}>
+              <div className={menuStyles.card}>
                 <h3>{item.itemName}</h3>
                 <p>{item.itemInfo}</p>
                 <p>{item.price}</p>
